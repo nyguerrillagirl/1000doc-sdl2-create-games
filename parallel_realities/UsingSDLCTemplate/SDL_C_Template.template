@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_template_file>
+    <template name="SDL C Template"
+              title="SDL C Project"
+              category="User Templates"
+              description="A starter SDL2 project in pure C using MinGW and Code::Blocks."
+              icon="console_app"
+              project="SDL2_C_Template.cbp">
+    </template>
+</CodeBlocks_template_file>
