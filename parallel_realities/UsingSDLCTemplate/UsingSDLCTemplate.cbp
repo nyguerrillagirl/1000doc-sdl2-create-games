@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="UsingCTemplate" />
+		<Option title="UsingSDLCTemplate" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/UsingCTemplate" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/UsingSDLCTemplate" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="0" />
 				<Option compiler="gcc" />
@@ -34,7 +34,7 @@
 				</Linker>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/UsingCTemplate" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/UsingSDLCTemplate" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="0" />
 				<Option compiler="gcc" />

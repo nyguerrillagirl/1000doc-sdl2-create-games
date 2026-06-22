@@ -26,6 +26,8 @@ void initSDL(void)
 		exit(1);
 	}
 
+	// tells SDL how to filter textures when they are scaled. We are requesting
+	// smooth scaling
 	SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, "linear");
 
 	app.renderer = SDL_CreateRenderer(app.window, -1, rendererFlags);
