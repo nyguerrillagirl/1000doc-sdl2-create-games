@@ -1,3 +1,5 @@
+#include <SDL_image.h>
+
 #include "common.h"
 
 #include "init.h"
@@ -18,7 +20,7 @@ void initSDL(void)
 		exit(1);
 	}
 
-	app.window = SDL_CreateWindow("Shooter 1", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, windowFlags);
+	app.window = SDL_CreateWindow("Shooter 2", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, windowFlags);
 
 	if (!app.window)
 	{
@@ -35,10 +37,14 @@ void initSDL(void)
 		printf("Failed to create renderer: %s\n", SDL_GetError());
 		exit(1);
 	}
+
+	IMG_Init(IMG_INIT_PNG | IMG_INIT_JPG);
 }
 
 void cleanup(void)
 {
+    IMG_Quit();
+
 	SDL_DestroyRenderer(app.renderer);
 
 	SDL_DestroyWindow(app.window);
