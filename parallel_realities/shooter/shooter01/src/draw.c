@@ -28,6 +28,16 @@ SDL_Texture *loadTexture(char *filename)
 	return texture;
 }
 
+int getTextureWidth(SDL_Texture *texture) {
+    SDL_Rect dest;
+    SDL_QueryTexture(texture, NULL, NULL, &dest.w, &dest.h);
+    return dest.w;
+}
+int getTextureHeight(SDL_Texture *texture) {
+    SDL_Rect dest;
+    SDL_QueryTexture(texture, NULL, NULL, &dest.w, &dest.h);
+    return dest.h;
+}
 void blit(SDL_Texture *texture, int x, int y)
 {
 	SDL_Rect dest;

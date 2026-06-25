@@ -14,4 +14,6 @@ typedef struct
 	int          x;
 	int          y;
 	SDL_Texture *texture;
+	int          w;
+	int          h;
 } Entity;

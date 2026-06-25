@@ -20,7 +20,7 @@ void initSDL(void)
 		exit(1);
 	}
 
-	app.window = SDL_CreateWindow("Shooter 3", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, windowFlags);
+	app.window = SDL_CreateWindow("Shooter 4", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, windowFlags);
 
 	if (!app.window)
 	{
