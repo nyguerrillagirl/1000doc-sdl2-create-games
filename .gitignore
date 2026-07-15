@@ -1,0 +1,55 @@
+# ============================
+# Code::Blocks
+# ============================
+*.depend
+*.layout
+*.layout.save
+*.cbTemp
+*.autosave
+
+# ============================
+# Build output
+# ============================
+bin/
+obj/
+build/
+out/
+
+# Compiled binaries
+*.exe
+*.dll
+*.so
+*.a
+*.o
+
+# Precompiled headers
+*.gch
+*.pch
+
+# ============================
+# Visual Studio (NEVER commit)
+# ============================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# VS IntelliSense / browsing DB
+*.VC.db
+*.VC.opendb
+ipch/
+
+# ============================
+# OS junk
+# ============================
+.DS_Store
+Thumbs.db
+
+# ============================
+# Backup files
+# ============================
+*~
+*.bak
+
+
