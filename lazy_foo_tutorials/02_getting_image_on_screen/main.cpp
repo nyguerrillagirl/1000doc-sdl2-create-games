@@ -117,5 +117,7 @@ int main( int argc, char* args[] )
 	//Free resources and close SDL
 	close();
 
+	printf("Press ENTER to exit...\n");
+	getchar();
 	return 0;
 }
